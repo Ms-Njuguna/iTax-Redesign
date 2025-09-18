@@ -101,14 +101,14 @@ Contributions are welcome! 🎉
 
 ## 📜 License
 
-This project is licensed under the MIT License – see the ![LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## Author
 
 Ms-Njuguna
-![🔗 GitHub](https://github.com/Ms-Njuguna) | ![LinkedIn](https://www.linkedin.com/in/patricia-njuguna-76b697202?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BPOMa0NDSZuAZenR71jb4w%3D%3D)
+[🔗 GitHub](https://github.com/Ms-Njuguna) | [LinkedIn](https://www.linkedin.com/in/patricia-njuguna-76b697202?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BPOMa0NDSZuAZenR71jb4w%3D%3D)
 
 
 
