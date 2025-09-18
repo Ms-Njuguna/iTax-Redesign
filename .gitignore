@@ -1,0 +1,16 @@
+# Python
+server/__pycache__/
+server/*.pyc
+server/.env
+server/venv/
+server/.venv/
+server/migrations/
+
+# Node
+client/node_modules/
+client/dist/
+client/.env
+
+# OS
+.DS_Store
+.vscode/
