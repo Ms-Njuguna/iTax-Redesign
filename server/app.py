@@ -8,9 +8,9 @@ from config import Config
 # from routes.return_routes import ReturnResource
 from routes import HelloResource
 
-def create_app():
+def create_app(config_class=Config):
     app = Flask(__name__)
-    app.config.from_object(Config)
+    app.config.from_object(config_class)
 
     # Initialize extensions
     db.init_app(app)
