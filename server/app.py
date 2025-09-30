@@ -8,6 +8,7 @@ from extensions import db, migrate, bcrypt, jwt
 # from routes.auth_routes import RegisterResource, LoginResource
 # from routes.return_routes import ReturnResource
 from routes import HelloResource
+from routes.return_routes import CreateReturnResource, AddIncomeResource, AddDeductionResource
 
 def create_app(config_class=Config):
     app = Flask(__name__)
@@ -33,6 +34,10 @@ def create_app(config_class=Config):
 
     from routes.test_routes import test_bp
     app.register_blueprint(test_bp, url_prefix="/api/test")
+
+    api.add_resource(CreateReturnResource, "/api/returns")
+    api.add_resource(AddIncomeResource, "/api/returns/<int:return_id>/income")
+    api.add_resource(AddDeductionResource, "/api/returns/<int:return_id>/deductions")
 
     return app
 
