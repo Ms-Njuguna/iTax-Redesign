@@ -16,6 +16,6 @@ class Return(db.Model):
     updated_at = db.Column(db.DateTime, default=lambda: datetime.now(timezone.utc), onupdate=lambda: datetime.now(timezone.utc))
 
     # relationsips
-    incomes = db.relationship("ReturnIncome", backref="return", lazy=True)
+    incomes = db.relationship('ReturnIncome', backref="return", lazy=True)
     deductions = db.relationship("ReturnDeduction", backref="return", lazy=True)
     payments = db.relationship("Payment", backref="return", lazy=True)

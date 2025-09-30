@@ -1,5 +1,6 @@
 from extensions import db
 from datetime import datetime, timezone
+from .tax_return import Return
 
 
 class User(db.Model):
